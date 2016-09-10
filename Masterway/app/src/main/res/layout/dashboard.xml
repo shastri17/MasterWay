@@ -7,23 +7,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".DashboardActivity$Login">
-
-    <Button
+    tools:context="com.bitsplease.masterway.DashboardActivity">
+    <TextView
+        android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User"
-        android:id="@+id/user"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
-
+        android:text="Set destination"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+    <EditText
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        />
     <Button
+        android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ems"
-        android:id="@+id/ems"
-        android:layout_below="@+id/user"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="71dp" />
+        android:layout_below="@id/textbox"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        android:onClick="MapsActivity"/>
+
+
 </RelativeLayout>

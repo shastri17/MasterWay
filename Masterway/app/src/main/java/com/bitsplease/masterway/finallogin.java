@@ -66,8 +66,8 @@ public class finallogin extends AppCompatActivity implements View.OnClickListene
 
         if(emergency.isChecked()){
 
-          //  Intent e=new Intent(finallogin.this,dashboard.class);
-          //  startActivity(e);
+            Intent e=new Intent(finallogin.this,MapsActivity.class);
+            startActivity(e);
         }
 
         else{
