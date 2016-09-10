@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.firebase.client.Firebase;
+import com.google.firebase.auth.FirebaseAuth;
+
+//import com.firebase.client.Firebase;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Firebase.setAndroidContext(this);
-
-        Firebase myFirebaseRef = new Firebase("https://bitspls2k16.firebaseio.com/");
 
         Button user = (Button)findViewById(R.id.user);
         Button ems =(Button) findViewById(R.id.ems);
