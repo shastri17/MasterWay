@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "871634639535",
+    "firebase_url": "https://bitspls2k16.firebaseio.com",
+    "project_id": "bitspls2k16",
+    "storage_bucket": "bitspls2k16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871634639535:android:e47aff456ad4ec68",
+        "android_client_info": {
+          "package_name": "com.bitsplease.masterway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871634639535-uglocj1mullhruj6cnvvqi2pr64k6ad0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
